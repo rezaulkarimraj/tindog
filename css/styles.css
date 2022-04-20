@@ -1,0 +1,185 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Heading */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Title Section */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/*  Navbar Section */
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.nav-item {
+  padding: 0 1rem;
+}
+
+.nav-link {
+  font-family: 'Montserrat';
+  font-size: 1.2rem; 
+  font-weight: 300;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.iphone-container {
+  position: relative;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(30deg);
+  position: absolute;
+  right: 30%;
+}
+
+
+/* Feature Section */
+ 
+#features {
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testmonials Section */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 1rem;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+
+#pricing {
+  padding: 100px;
+}
+
+.price-title {
+  font-size: 1.5rem;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA action (call to action) */
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* Footer Section */
+
+.social {
+  color: #333;
+  padding-left: 1rem;
+}
+/* Responsive Meadia */
+
+@media (max-width: 1024px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
